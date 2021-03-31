@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Добавить сатью</h1>
+                    <h1 class="m-0">Добавить тест</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
             @if (session('success'))
@@ -34,7 +34,7 @@
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Название</label>
                                     <input type="text" name="title" class="form-control" id="exampleInputEmail1"
-                                        placeholder="Введите название статьи" required>
+                                        placeholder="Введите название теста" required>
                                 </div>
                                 <div class="form-group">
                                     <!-- select -->
@@ -53,7 +53,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="feature_image">Изображение статьи</label>
+                                    <label for="feature_image">Изображение</label>
                                     <img src="" alt="" class="img-uploaded" style="display: block; width: 300px">
                                     <input type="text" name="img" class="form-control" id="feature_image"
                                         name="feature_image" value="" readonly>

@@ -1,6 +1,6 @@
 @extends('layouts.admin_layout')
 
-@section('title', 'Добавить категорию')
+@section('title', 'Добавить результаты')
 
 @section('content')
     <!-- Content Header (Page header) -->
@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Добавить категорию</h1>
+                    <h1 class="m-0">Добавить результаты</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
             @if (session('success'))
@@ -34,7 +34,7 @@
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Название</label>
                                     <input type="text" name="title" class="form-control" id="exampleInputEmail1"
-                                        placeholder="Введите название категории" required>
+                                        placeholder="Введите данные" required>
                                 </div>
                             </div>
                             <!-- /.card-body -->

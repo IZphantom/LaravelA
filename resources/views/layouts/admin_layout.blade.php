@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Админ-панель - @yield('title')</title>
+    <title>Панель администратора - @yield('title')</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -35,10 +35,10 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link">
-                <img src="/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+            <a href="index.html" class="brand-link">
+                <img src="/admin/dist/img/metro.png" alt="AdminLogo"
                     class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">Админ-панель</span>
+                <span class="brand-text font-weight-light">Администрирование</span>
             </a>
 
             <!-- Sidebar -->
@@ -73,19 +73,19 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon far fa-newspaper"></i>
                                 <p>
-                                    Блог
+                                    Тестирование
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="{{ route('post.index') }}" class="nav-link">
-                                        <p>Все статьи</p>
+                                        <p>Все тесты</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="{{ route('post.create') }}" class="nav-link">
-                                        <p>Добавить статью</p>
+                                        <p>Добавить тест</p>
                                     </a>
                                 </li>
                             </ul>
@@ -94,19 +94,19 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-align-left"></i>
                                 <p>
-                                    Категории
+                                    Статистика
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="{{ route('category.index') }}" class="nav-link">
-                                        <p>Все категории</p>
+                                        <p>Вся статистика</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="{{ route('category.create') }}" class="nav-link">
-                                        <p>Добавить категорию</p>
+                                        <p>Добавить результаты</p>
                                     </a>
                                 </li>
                             </ul>

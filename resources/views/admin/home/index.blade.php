@@ -28,12 +28,12 @@
                         <div class="inner">
                             <h3>{{ $posts_count }}</h3>
 
-                            <p>Статьи</p>
+                            <p>Тесты</p>
                         </div>
                         <div class="icon">
                             <i class="ion ion-bag"></i>
                         </div>
-                        <a href="{{ route('post.index') }}" class="small-box-footer">Все статьи <i
+                        <a href="{{ route('post.index') }}" class="small-box-footer">Все тесты <i
                                 class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
@@ -44,12 +44,12 @@
                         <div class="inner">
                             <h3>{{ $categories_count }}</h3>
 
-                            <p>Категории</p>
+                            <p>Статистика</p>
                         </div>
                         <div class="icon">
                             <i class="ion ion-stats-bars"></i>
                         </div>
-                        <a href="{{ route('category.index') }}" class="small-box-footer">Все категории <i
+                        <a href="{{ route('category.index') }}" class="small-box-footer">Просмотреть статистику <i
                                 class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
